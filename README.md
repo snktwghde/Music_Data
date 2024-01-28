@@ -26,10 +26,16 @@ sudo docker ps -a
 4. To connect on it use:
 
 ```
-/opt/mssql-tools/bin/sqlcmd -S localhost -U SA -P "<YourStrong@Passw0rd>"
+sqlcmd -S localhost -U SA -P "<YourStrong@Passw0rd>"
+
+```
+5. To insert a script use '-i':
+```
+sqlcmd -S localhost -U SA -P "<YourStrong@Passw0rd>" -i <file>
 
 ```
 5. To quit type 'quit'
+
 6. To stop the container type:
 
 ```
