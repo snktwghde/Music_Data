@@ -2,7 +2,7 @@ Examining the music store data on MSSQL and understanding the business by answer
 
 ## For Practice on a docker container
 
-# Make sure you have (docker)[https://www.docker.com] and [sqlcmd](https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility?view=sql-server-ver16&tabs=go%2Clinux&pivots=cs1-powershell)
+# Make sure you have [docker](https://www.docker.com) and [sqlcmd](https://learn.microsoft.com/en-us/sql/tools/sqlcmd/sqlcmd-utility?view=sql-server-ver16&tabs=go%2Clinux&pivots=cs1-powershell)
 
 1. Pull the SQL server image:
 ```
