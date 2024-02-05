@@ -29,7 +29,7 @@ sqlcmd -S localhost -U SA -P "<YourStrong@Passw0rd>"
 ```
 5. To insert a script use '-i':
 ```
-sqlcmd -S localhost -U SA -P "<YourStrong@Passw0rd>" -i <file>
+sqlcmd -S localhost -U SA -P "<YourStrong@Passw0rd>" -i Data/Data.sql
 
 ```
 5. To quit type 'quit'
