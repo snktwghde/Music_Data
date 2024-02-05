@@ -2,7 +2,7 @@
 Write a query that returns one city that has the highest sum of invoice totals. 
 Return both the city name & sum of all invoice totals */
 
-select sum(total) as invoice_total, billing_city
-from invoice
-group by billing_city
-order  by invoice_total desc
+SELECT SUM(total) AS invoice_total, billing_city                                                                                        
+ FROM invoice                                                                                                                            
+ GROUP BY billing_city                                                                                                                   
+ ORDER BY invoice_total DESC; 
